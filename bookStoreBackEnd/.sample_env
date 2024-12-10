@@ -1,0 +1,21 @@
+# This file contains all the secret environment variables names that need to be declared in the .env file.
+# Just copy the following content, paste it in .env file and then assign the variables names with your strings.
+
+PORT=3157
+
+# MongoDB stuffs
+MONGO_URL_DEV=mongodb://localhost:27017/
+
+
+# super admin login
+DEFAULT_USER_PASSWORD=Book@2024
+DEFAULT_USER_EMAIL=adminBookStore@gmail.com
+DEFAULT_USER_FIRST_NAME=default
+DEFAULT_USER_LAST_NAME=admin
+
+
+# JWT stuffs
+ACCESS_TOKEN_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMDI0IiwibmFtZSI6ImRlZmF1bHRhZG1pbkAyMDIwIiwiaWF0IjoxNTE2MjM5MDIyfQ.UvPYTLYV2F_QRLGVIEmVpvp1bLXlfNwZot-KA1tN9qo
+REFRESH_TOKEN_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMDI1IiwibmFtZSI6IkAyMDIwIiwiaWF0IjoxMjIzNTU2MjYyNH0.qHY9lj4FJb80eBTp_9ORQI1g_rWVVGifDahn0PzxVJk
+
+

@@ -1,0 +1,79 @@
+/* Ensure the container fills the viewport and centers the content */
+.todoContainer {
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Style for the input container */
+.inputContainer {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+.todoContainer h1{
+  text-align: center;
+  align-self:center;
+  font-size: 6rem;
+  font-weight: bolder;
+  color: blueviolet;
+}
+
+/* Input row to hold the input field and button */
+.inputRow {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  width: 100%;
+}
+
+
+.errorRow {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start; 
+}
+
+/* Style for the input field */
+.input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1; /* Allow input to take available space */
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid rgb(178, 115, 237);
+  box-shadow: 0 0 10px rgb(198, 107, 225);
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* Style for the button */
+.button {
+  border: none;
+  border-radius: 8px;
+  background-color: blueviolet;
+  padding: 15px 25px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: darkviolet;
+}
